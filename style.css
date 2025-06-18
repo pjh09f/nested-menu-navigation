@@ -1,9 +1,12 @@
+/* base page styling */
 body {
     font-family: sans-serif;
     padding: 20px;
     max-width: 600px;
     margin: auto;
   }
+  
+  /* subject headers (main menu items) */
   .subject {
     font-size: 1.5em;
     margin-top: 20px;
@@ -12,20 +15,28 @@ body {
     padding: 10px;
     border-radius: 5px;
   }
+  
+  /* container for topic links (initially hidden) */
   .topics {
     display: none;
     margin-left: 20px;
     margin-top: 10px;
   }
+  
+  /* individual topic link styles */
   .topics a {
     display: block;
     margin-bottom: 5px;
     text-decoration: none;
     color: #333;
   }
+  
+  /* hover style for topic links */
   .topics a:hover {
     text-decoration: underline;
   }
+  
+  /* responsive design adjustments for smaller screens */
   @media (max-width: 600px) {
     body {
       padding: 10px;

@@ -4,12 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Entertainment Explorer</title>
+
+  <!-- link to external CSS for shared styles -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- defer JavaScript that controls topic toggle behavior -->
   <script defer src="script.js"></script>
 </head>
 <body>
   <h1>Entertainment Explorer</h1>
 
+  <!-- subject: Queer Culture (click to reveal related topics) -->
   <div class="subject" onclick="toggleTopics('queer')">Queer Culture</div>
   <div id="queer-topics" class="topics">
     <a href="queer-icons.html">Queer Icons</a>
@@ -18,6 +23,7 @@
     <a href="ball-culture.html">Ball Culture & Voguing</a>
   </div>
 
+  <!-- subject: Adele (click to reveal album pages) -->
   <div class="subject" onclick="toggleTopics('adele')">Adele</div>
   <div id="adele-topics" class="topics">
     <a href="adele-19.html">19</a>
@@ -26,6 +32,7 @@
     <a href="adele-30.html">30</a>
   </div>
 
+  <!-- subject: Bittersweet Cinema (click to reveal related films) -->
   <div class="subject" onclick="toggleTopics('cinema')">Bittersweet Cinema</div>
   <div id="cinema-topics" class="topics">
     <a href="still-alice.html">Still Alice</a>
